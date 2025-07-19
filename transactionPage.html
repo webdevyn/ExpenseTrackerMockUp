@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Transaction</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex justify-center items-center h-screen">
+  <div class="w-[375px] h-[667px] bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-300">
+
+    <!-- Top Status Bar -->
+    <div class="flex justify-between pt-5 pb-1 px-4">
+      <div class="w-1/3 text-sm">9:30</div>
+      <div class="w-1/3 flex justify-center">
+        <div class="w-6 h-6 bg-black rounded-full"></div>
+      </div>
+      <div class="w-1/3 flex justify-end gap-1">
+        <img src="icons/cellular-data-1.png" alt="Cellular" class="w-4 h-4" />
+        <img src="icons/Network-Wifi-icon.png" alt="WiFi" class="w-4 h-4" />
+        <img src="icons/battery.png" alt="Battery" class="w-4 h-4" />
+      </div>
+    </div>
+
+    <!-- Page Title -->
+    <div class="px-6 pt-4 pb-2">
+      <h2 class="text-md font-semibold text-gray-800">Add Transaction</h2>
+    </div>
+
+    <!-- Static Details Section -->
+    <div class="flex flex-col gap-4 px-6 pt-2 pb-8">
+      <div class="bg-gray-50 rounded-xl border border-gray-200 p-4 flex flex-col gap-3">
+        <div>
+          <p class="text-xs font-medium text-gray-600">Amount</p>
+          <p class="text-sm mt-1">$ 100</p>
+        </div>
+        <div>
+          <p class="text-xs font-medium text-gray-600">Type</p>
+          <p class="text-sm mt-1">Expense</p>
+        </div>
+        <div>
+          <p class="text-xs font-medium text-gray-600">Category</p>
+          <p class="text-sm mt-1">Travel</p>
+        </div>
+        <div>
+          <p class="text-xs font-medium text-gray-600">Date</p>
+          <p class="text-sm mt-1">July 14, 2025</p>
+        </div>
+        <div>
+          <p class="text-xs font-medium text-gray-600">Notes</p>
+          <p class="text-sm mt-1 text-gray-700">Flight from London to Paris</p>
+        </div>
+      </div>
+
+      <!-- Save Button (Visual only) -->
+      <div class="bg-gray-300 text-gray-500 rounded-lg py-2 text-center font-semibold text-lg cursor-not-allowed mt-2">
+        Save
+      </div>
+    </div>
+  </div>
+</body>
+</html>
